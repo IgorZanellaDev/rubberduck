@@ -249,6 +249,7 @@
 	import 'prismjs/components/prism-yaml.js';
 	import 'prismjs/components/prism-yang.js';
 	import 'prismjs/components/prism-zig.js';
+	import { TITLE, DESCRIPTION, URL } from '../constants/seo';
 	import Restart16 from "carbon-icons-svelte/lib/Restart16";
 
 	const DEFAULT_CODE = "let test = \"hello\";";
@@ -269,6 +270,21 @@
 	};
 </script>
 
+<svelte:head>
+	<title>{TITLE}</title>
+	<meta name="description" content={DESCRIPTION} />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content={TITLE} />
+	<meta property="og:description" content={DESCRIPTION} />
+	<meta property="og:url" content={URL} />
+	<meta property="og:site_name" content={TITLE} />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:title" content={TITLE} />
+	<meta name="twitter:description" content={DESCRIPTION} />
+	<meta name="twitter:image" content={URL + "/rubber-duck.png"} />
+	<meta name="theme-color" content="#393939" />
+</svelte:head>
 
 <style>
 	.image-container {
