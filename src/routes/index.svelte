@@ -249,7 +249,7 @@
 	import 'prismjs/components/prism-yaml.js';
 	import 'prismjs/components/prism-yang.js';
 	import 'prismjs/components/prism-zig.js';
-	import { Restart16 } from "carbon-icons-svelte";
+	import Restart16 from "carbon-icons-svelte/lib/Restart16";
 
 	const DEFAULT_CODE = "let test = \"hello\";";
 	const DEFAULT_SYNTAX = "javascript";
