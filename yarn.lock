@@ -73,6 +73,14 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
+"@novacbn/svelte-codejar@^0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@novacbn/svelte-codejar/-/svelte-codejar-0.1.0.tgz#0af27a480313873ba89dee827e5c07a979936abc"
+  integrity sha512-O3diYeZOQJthxSus77a3k0WhShnm6Nel/HZaSiXvU9mHoY3Xlrj4pY6zmiLFbEUy82HrfcONqLwkbQ1S/MjRbA==
+  dependencies:
+    codejar "^3.5.0"
+    svelte "^3.42.3"
+
 "@rollup/pluginutils@^4.1.1":
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/@rollup/pluginutils/-/pluginutils-4.1.1.tgz#1d4da86dd4eded15656a57d933fda2b9a08d47ec"
@@ -303,6 +311,24 @@ callsites@^3.0.0:
   resolved "https://registry.yarnpkg.com/callsites/-/callsites-3.1.0.tgz#b3630abd8943432f54b3f0519238e33cd7df2f73"
   integrity sha512-P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==
 
+carbon-components-svelte@^0.42.2:
+  version "0.42.2"
+  resolved "https://registry.yarnpkg.com/carbon-components-svelte/-/carbon-components-svelte-0.42.2.tgz#54cacedc6be7e0dad518da2de051f9c49107c3cb"
+  integrity sha512-O1eLYa+kzDEZSqN+TiO60MTXk9FMuB2IcoogFh6d1GzyjoGu7awMunukNxh5LSdDG7OEPTfVtQ2+5C6frgGqEQ==
+  dependencies:
+    carbon-icons-svelte "^10.36.0"
+    flatpickr "4.6.9"
+
+carbon-icons-svelte@^10.36.0:
+  version "10.36.0"
+  resolved "https://registry.yarnpkg.com/carbon-icons-svelte/-/carbon-icons-svelte-10.36.0.tgz#3f269f2c52520d14fcd42161a633afbb7c68b4bf"
+  integrity sha512-YlrHtjdRqMFiptNVpQ4M+gMvpYDoKQydBY5A82thAXIHk9JrbrVLzq6RgJugTijHT8yzMS1zXaw6YYhqL8Qzqw==
+
+carbon-icons-svelte@^10.38.0:
+  version "10.38.0"
+  resolved "https://registry.yarnpkg.com/carbon-icons-svelte/-/carbon-icons-svelte-10.38.0.tgz#daf74e4a2a826ad994c950a67307b8392d80ca3a"
+  integrity sha512-uEckbbNHFtDzKz+QRx6GxvZcezXXqfDOiaE7mupkiRPkBbALrA9CPJZbI5Q2XW5mpn8lgN3IlTm2u1iJEAlVJw==
+
 chalk@^2.0.0:
   version "2.4.2"
   resolved "https://registry.yarnpkg.com/chalk/-/chalk-2.4.2.tgz#cd42541677a54333cf541a49108c1432b44c9424"
@@ -339,6 +365,11 @@ chokidar@^3.4.1:
     readdirp "~3.6.0"
   optionalDependencies:
     fsevents "~2.3.2"
+
+codejar@^3.5.0:
+  version "3.5.0"
+  resolved "https://registry.yarnpkg.com/codejar/-/codejar-3.5.0.tgz#be3a6a77b4c422998e56710ca854d166f8507eb2"
+  integrity sha512-uXrFZZ+yb23YY7+WtTux2Yyokt+Lty/kBnW/OhhEGp8IW8/lrJw5Gs1wwCyt2vpMfsVdudLmV5xAgYqsZY/49A==
 
 color-convert@^1.9.0:
   version "1.9.3"
@@ -631,6 +662,11 @@ flat-cache@^3.0.4:
   dependencies:
     flatted "^3.1.0"
     rimraf "^3.0.2"
+
+flatpickr@4.6.9:
+  version "4.6.9"
+  resolved "https://registry.yarnpkg.com/flatpickr/-/flatpickr-4.6.9.tgz#9a13383e8a6814bda5d232eae3fcdccb97dc1499"
+  integrity sha512-F0azNNi8foVWKSF+8X+ZJzz8r9sE1G4hl06RyceIaLvyltKvDl6vqk9Lm/6AUUCi5HWaIjiUbk7UpeE/fOXOpw==
 
 flatted@^3.1.0:
   version "3.2.2"
@@ -989,6 +1025,11 @@ prettier@~2.2.1:
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.2.1.tgz#795a1a78dd52f073da0cd42b21f9c91381923ff5"
   integrity sha512-PqyhM2yCjg/oKkFPtTGUojv7gnZAoG80ttl45O6x2Ug/rMJw4wcc9k6aaf2hibP7BGVCCM33gZoGjyvt9mm16Q==
 
+prismjs@^1.24.1:
+  version "1.24.1"
+  resolved "https://registry.yarnpkg.com/prismjs/-/prismjs-1.24.1.tgz#c4d7895c4d6500289482fa8936d9cdd192684036"
+  integrity sha512-mNPsedLuk90RVJioIky8ANZEwYm5w9LcvCXrxHlwf4fNVSn8jEipMybMkWUyyF0JhnC+C4VcOVSBuHRKs1L5Ow==
+
 progress@^2.0.0:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/progress/-/progress-2.0.3.tgz#7e8cf8d8f5b8f239c1bc68beb4eb78567d572ef8"
@@ -1197,7 +1238,7 @@ svelte-preprocess@^4.0.0:
     detect-indent "^6.0.0"
     strip-indent "^3.0.0"
 
-svelte@^3.34.0:
+svelte@^3.34.0, svelte@^3.42.3:
   version "3.42.4"
   resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.42.4.tgz#838ed98fa7b26fc5fffe4df0d7ba345f1c54cf4f"
   integrity sha512-DqC0AmDdBrrbIA+Kzl3yhBb6qCn4vZOAfxye2pTnIpinLegyagC5sLI8Pe9GPlXu9VpHBXIwpDDedpMfu++epA==
