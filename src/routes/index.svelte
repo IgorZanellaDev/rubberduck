@@ -294,7 +294,7 @@
 	}
 </style>
 
-<Content style="min-height: calc(100vh - 3rem)">
+<Content style="min-height: calc(100vh - 3rem - 36px)">
 	<Grid>
 		<Row>
 			<Column md={4} lg={10} style="display: flex; justify-content: center">
