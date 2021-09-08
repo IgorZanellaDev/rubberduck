@@ -339,6 +339,13 @@
 				<p>
 					Source: <Link size="lg" href="https://en.wikipedia.org/wiki/Rubber_duck_debugging" target="_blank" rel="noopener">Wikipedia</Link>
 				</p>
+				<h2 id="i-want-to-add-a-feature">I want to add a feature</h2>
+				<p>
+					This project is open source. You are free to add a PR to GitHub library. I will check and approve it if it's ok. Be crazy.
+				</p>
+				<p>
+					GitHub Library: <Link size="lg" href="https://github.com/IgorZanellaDev/rubberduck" target="_blank" rel="noopener">IgorZanellaDev/rubberduck</Link>
+				</p>
 			</Column>
 		</Row>
 	</Grid>
