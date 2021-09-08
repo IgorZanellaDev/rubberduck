@@ -277,12 +277,13 @@
 	<meta property="og:type" content="website" />
 	<meta property="og:title" content={TITLE} />
 	<meta property="og:description" content={DESCRIPTION} />
+	<meta property="og:image" content={URL + "/meta-image.png"} />
 	<meta property="og:url" content={URL} />
 	<meta property="og:site_name" content={TITLE} />
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:title" content={TITLE} />
 	<meta name="twitter:description" content={DESCRIPTION} />
-	<meta name="twitter:image" content={URL + "/rubber-duck.png"} />
+	<meta name="twitter:image" content={URL + "/meta-image.png"} />
 	<meta name="theme-color" content="#393939" />
 </svelte:head>
 
