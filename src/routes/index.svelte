@@ -289,8 +289,8 @@
 <style>
 	.image-container {
       display: inline-block;
-			max-width: 600px;
-			max-height: 600px;
+			max-width: 500px;
+			max-height: 500px;
 	}
 </style>
 
