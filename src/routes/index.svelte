@@ -336,7 +336,7 @@
 					By using an inanimate object, the programmer can try to accomplish this without having to interrupt anyone else.
 				</p>
 				<p>
-					Source: <Link size="lg" href="https://en.wikipedia.org/wiki/Rubber_duck_debugging" target="_blank" rel="noopener noreferrer">Wikipedia</Link>
+					Source: <Link size="lg" href="https://en.wikipedia.org/wiki/Rubber_duck_debugging" target="_blank" rel="noopener">Wikipedia</Link>
 				</p>
 			</Column>
 		</Row>
