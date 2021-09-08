@@ -1,6 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+		<script type="text/javascript">
+			var _iub = _iub || [];
+			_iub.csConfiguration = {
+				"ccpaAcknowledgeOnDisplay":true,
+				"whitelabel":false,
+				"lang":"en",
+				"siteId":2343674,
+				"perPurposeConsent":true,
+				"enableCMP":true,
+				"googleAdditionalConsentMode":true,
+				"enableCcpa":true,
+				"countryDetection":true,
+				"cookiePolicyId":76281159,
+				"banner":{
+					"acceptButtonDisplay":true,
+					"customizeButtonDisplay":true,
+					"position":"float-center",
+					"backgroundOverlay":true,
+					"rejectButtonDisplay":true,
+					"listPurposes":true
+				},
+				"callback": {
+					onPreferenceExpressedOrNotNeeded: function(preference) {
+						dataLayer.push({
+							iubenda_ccpa_opted_out: _iub.cs.api.isCcpaOptedOut()
+						});
+						if (!preference) {
+							dataLayer.push({
+								event: "iubenda_preference_not_needed"
+							});
+						} else {
+							if (preference.consent === true) {
+								dataLayer.push({
+									event: "iubenda_consent_given"
+								});
+							} else if (preference.consent === false) {
+								dataLayer.push({
+									event: "iubenda_consent_rejected"
+								});
+							} else if (preference.purposes) {
+								for (var purposeId in preference.purposes) {
+									if (preference.purposes[purposeId]) {
+										dataLayer.push({
+											event: "iubenda_consent_given_purpose_" + purposeId
+										});
+									}
+								}
+							}
+						}
+					}
+				}
+			};
+		</script>
+		<script type="text/javascript" src="//cdn.iubenda.com/cs/tcf/stub-v2.js"></script>
+		<script type="text/javascript" src="//cdn.iubenda.com/cs/ccpa/stub.js"></script>
+		<script type="text/javascript" src="//cdn.iubenda.com/cs/iubenda_cs.js" charset="UTF-8" async></script>
+
 		<meta charset="utf-8" />
 		<link rel="icon" href="/rubber-duck.png" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
