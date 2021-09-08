@@ -1,12 +1,13 @@
-# rubberduck
+# 🐤 RubberDuck
 
-## Free domains
-rubberduck.click_____1.90$  
-rubberduck.guru______2.98$  
-rubberduck.pro_______3.98$  
-rubberduck.vip_______4.18$  
-rubberduck.support___4.98$  
-rubberduck.cool______5.98$  
-rubberduck.plus______5.98$  
-rubberduck.engineer__6.98$  
-rubberduck.army______11.98$  
+Welcome to this crazy project README.
+
+## 💻 Technologies
+I used Svelte and SvelteKit as JS framework. It's easy and fast.
+Then I add IBM Carbon Design System for the UI. So the website seems something serious😂.
+
+## 👷 Contribute
+If you want you can add features and funny things. Just create a PR using [Conventional commits](https://www.conventionalcommits.org/).
+
+## 🤙 Contact me
+If you want to contact me you can write at igor@igorzanella.dev or write a message on [igorzanella.dev](https://igorzanella.dev) chat. I will answer ASAP.
