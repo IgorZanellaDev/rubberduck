@@ -6,6 +6,7 @@
 <Header platformName="RubberDuck" href="/">
 	<HeaderNav style="display: block !important">
 		<HeaderNavItem href="#what-is-rubber-duck" text="What is Rubber Duck?" />
+		<HeaderNavItem href="#i-want-to-add-a-feature" text="I want to add a feature" />
 	</HeaderNav>
 </Header>
 
